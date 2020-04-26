@@ -1,6 +1,6 @@
 {
   "name": "strawpoll-lib",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "npm package for Strawpoll.me API",
   "main": "index.js",
   "scripts": {

@@ -45,11 +45,10 @@ async function getResults(pollID) {
 
 /** 
  * @param {number} pollID Numeric ID associated with the poll from which you want the results.
- * @returns {Promise.<string>} Promise that will attempt to get the URL of the poll.
+ * @returns {string} URL of the poll.
  */
 async function getURL(pollID) {
-    let res = await getPoll(pollID)
-    return `https://www.strawpoll.me/${res.id}`
+    return `https://www.strawpoll.me/${pollID}`
 }
 
 // CREATING POLL

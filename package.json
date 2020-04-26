@@ -1,0 +1,14 @@
+{
+  "name": "strawpoll-lib",
+  "version": "1.0.0",
+  "description": "npm package for Strawpoll.me API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Preston Rozwood",
+  "license": "MIT",
+  "dependencies": {
+    "requestify": "^0.2.5"
+  }
+}

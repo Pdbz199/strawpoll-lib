@@ -18,7 +18,7 @@ const strawpoll = require('strawpoll-lib')
 
 let pollID = 1
 strawpoll.getPoll(pollID).then(res => {
-console.log(res)
+	console.log(res)
 })
 ```
 
@@ -27,8 +27,8 @@ Create Poll
 const strawpoll = require('strawpoll-lib')
 
 strawpoll.createPoll("Question?", ["Yes", "No"]).then(res => {
-console.log(res)
-console.log(strawpoll.getURL(res.id))
+	console.log(res)
+	console.log(strawpoll.getURL(res.id))
 })
 ```
 
